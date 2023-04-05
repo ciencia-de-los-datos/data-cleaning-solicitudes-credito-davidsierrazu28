@@ -9,7 +9,7 @@ correctamente. Tenga en cuenta datos faltantes y duplicados.
 def clean_data():
 
     import pandas as pd
-    df_solicitudes_creditos = pd.read_csv('solicitudes_credito (1).csv', sep=';')
+    df_solicitudes_creditos = pd.read_csv('solicitudes_credito.csv', sep=';')
 
     #Eliminar columna Unnames
     df_solicitudes_creditos.drop(['Unnamed: 0'],axis=1,inplace=True)
